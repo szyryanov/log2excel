@@ -11,7 +11,7 @@ namespace log2excel
         {
             try
             {
-                if (args.Length < 1) throw new Exception("usage: log2csv.exe filename");
+                if (args.Length < 1) throw new Exception("usage: log2excel.exe filename");
                 //
                 if (!File.Exists(args[0])) throw new Exception("File " + args[0] + " not found.");
                 //
